@@ -1,0 +1,666 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+
+/* ============  HEADER START  ========== */
+
+header {
+    background-image: url('../images/Слой\ 15.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+}
+
+header .header_tel a {
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+    margin-right: 10px;
+}
+
+header .header_tel button {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: white;
+    padding: 21px 27px;
+    border-radius: 7px;
+    border: none;
+    background: #feb403;
+}
+
+header .header {
+    margin-top: 100px;
+}
+
+header .header .text h1 {
+    font-size: 40px;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 34px;
+}
+
+header .header .text p {
+    font-size: 24px;
+    color: #292929;
+    margin-bottom: 26px;
+}
+
+header .header .text button {
+    background: #70c849;
+    padding: 30px 46px 27px 40px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 18px;
+    border: none;
+}
+
+header .header .text button span {
+    font-size: 30px;
+}
+
+header .header form {
+    background: #fefefe;
+    padding: 46px 50px;
+    margin-bottom: 100px;
+}
+
+header .header form p {
+    font-size: 18px;
+    color: #292929;
+}
+
+
+
+
+header .header form button {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    padding: 27px 55px;
+    border-radius: 7px;
+    border: none;
+    background: #feb403;
+    margin-top: 23px;
+}
+
+header .header form input {
+    width: 255px;
+    height: 55px;
+    margin-top: 18px;
+}
+
+header .header form n {
+    margin-top: 18px;
+}
+
+/* ============ MAIN START =============== */
+main {
+    width: 100%;
+    height: auto;
+    background: white;
+}
+
+main h2 {
+    font-size: 36px;
+    color: #1a1820;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 130px;
+}
+
+main .box {
+    margin-bottom: 140px;
+}
+
+main .box .fas {
+    font-size: 80px;
+    color: #44b313;
+}
+
+
+main .box h4 {
+    margin-top: 70px;
+    font-size: 20px;
+    color: #1a1820;
+    font-weight: 900;
+}
+
+main .box p {
+    margin-top: 40px;
+    font-size: 16px;
+    color: #1a1820;
+}
+
+/* <!-- ========== SECTION START ========= --> */
+
+/* <!-- ================= section_price start =========== --> */
+.section_price {
+    width: 100%;
+    height: auto;
+    background: #187300;
+}
+
+.section_price .wrap .wrap_order {
+    background: white;
+    box-shadow: 5px 5px 15px black;
+}
+
+.section_price h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: white;
+}
+
+.section_price p {
+    color: white;
+    font-size: 18px;
+}
+
+.section_price .ptice_right button {
+    background: #feb404;
+    padding: 26px 40px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+.section_price .wrap .wrap_order n {
+    font-size: 19px;
+    font-weight: 900;
+    color: #1a1820;
+    margin-bottom: 35px;
+    margin-top: 40px;
+}
+
+.section_price .wrap .wrap_order button {
+    background: #fbb102;
+    padding: 21px 60px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.section_price .wrap {
+    margin-top: 30px;
+    padding-bottom: 120px;
+}
+
+.section_price .check .fa {
+    font-size: 14px;
+    color: #26650a;
+    margin: 5px 8px 4px 0;
+}
+
+.section_price .check p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #1a1820;
+
+}
+
+.section_price .check span {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+/*  <!-- ================= section_carousel  start =========== --> */
+.section_carousel {
+    padding-bottom: 60px;
+    background-image: url('../images/Прямоугольник\ 6\ копия.png');
+}
+
+.section_carousel h2 {
+    padding-top: 120px;
+    margin-bottom: 120px;
+    text-align: center;
+    font-size: 36px;
+
+}
+
+.section_carousel .slide {
+    background: white;
+    box-shadow: 9px 19px 42px black;
+}
+
+.section_carousel .slide .carousel-control-prev {
+    transform: translateX(-60px);
+}
+
+.section_carousel .slide .carousel-control-next {
+    transform: translateX(60px);
+}
+
+.section_carousel .slide .carousel-control-prev,
+.carousel-control-next {
+    width: 60px;
+    height: 70px;
+    background: #49bf15;
+    top: 40%;
+    opacity: 1;
+}
+
+.video video {
+    width: 100%;
+    height: 100%;
+
+}
+
+.video img {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.video .img{
+    margin-bottom: 40px;
+}
+
+.video ul li {
+    margin-top: 20px;
+}
+
+.video p {
+    font-size: 16px;
+    color: #1a1820;
+    font-weight: 400;
+    margin: 0;
+}
+
+.video span {
+    margin-left: 10px;
+    font-weight: 900;
+}
+
+.video .art {
+    margin-top: 30px;
+}
+
+.video .art img {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+.video .text {
+    margin-bottom: 40px;
+    margin-top: 15px;
+    padding: 22px;
+    border: 3px solid #49bf15;
+}
+
+/* ============== scheme ========== */
+.scheme {
+    width: 100%;
+    height: auto;
+    background-image: url('../images/7gipsolit_.png');
+    background-position: center;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    padding: 122px 0;
+
+}
+
+.icon {
+    margin-top: 70px;
+    margin-left: 80px;
+}
+
+.scheme_text h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1a1820;
+    margin-bottom: 50px;
+}
+
+.scheme_text p {
+    font-size: 16px;
+    color: #1a1820;
+}
+
+/* ============  section_number =============*/
+.section_number {
+    padding-top: 120px;
+    padding-bottom: 130px;
+    background: #f5f5f5;
+}
+
+.section_number .number {
+    margin-top: 80px;
+}
+
+.section_number .number img {
+    border-radius: 50%;
+    height: 65px;
+    margin-right: 15px;
+}
+
+.section_number h2 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #358015;
+}
+
+.section_number .number p {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    margin: 0;
+}
+
+/* ================= section_girl ================ */
+.section_girl {
+    width: 100%;
+    background: white;
+    padding-bottom: 137px;
+}
+
+.section_girl h2 {
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+    margin-top: 125px;
+    margin-bottom: 85px;
+}
+
+.section_girl .left P {
+    font-size: 21px;
+    font-weight: 900;
+    color: #3131318e;
+    margin: 50px 0 0 50px;
+}
+
+.section_girl .right P {
+    font-size: 21px;
+    font-weight: 900;
+    color: #313131;
+    margin: 50px 0 0 50px;
+}
+
+.section_girl .left {
+
+    border: 4px solid #e8e8e8;
+}
+
+.section_girl .right {
+
+    border: 4px solid #358015;
+}
+
+.section_girl .girl {
+    transform: translateX(350px);
+    position: absolute;
+}
+
+.section_girl ul li {
+    font-size: 16px;
+    color: #313131;
+    margin-top: 35px;
+    margin-left: 45px;
+}
+
+.section_girl .left ul li .fas {
+    margin-right: 25px;
+    font-size: 20px;
+    color: red;
+}
+
+.section_girl .right ul li .fas {
+    margin-right: 25px;
+    font-size: 20px;
+    color: #358015;
+}
+
+/* 
+<!-- ================= section_material start =========== --> */
+.section_material {
+    background-image: url('../images/Прямоугольник\ 6\ копия.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.material_top h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: black;
+    padding-top: 125px;
+}
+
+.material_top p {
+    font-size: 19px;
+    color: black;
+    padding-top: 55px;
+}
+
+.section_material .box {
+    margin-top: 80px;
+}
+
+.section_material .box h3 {
+    font-size: 22px;
+    font-weight: 900;
+    color: #000000;
+    margin-top: 15px;
+}
+
+.section_material .box p {
+    font-size: 19px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.section_material .box p span {
+    font-weight: 900;
+}
+
+.section_material .box a {
+    font-size: 17px;
+    font-weight: 500;
+    color: #6ba253;
+    text-decoration: underline;
+}
+
+.material_bottom p {
+    margin-top: 80px;
+    padding-bottom: 85px;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    margin: 0;
+}
+
+.material_bottom p a {
+    font-size: 17px;
+    font-weight: 500;
+    color: #6ba253;
+    text-decoration: underline;
+}
+
+.material_bottom p span {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+/* <!-- ================= section_web start =========== --> */
+.section_web {
+    background-image: url('../images/Слой\ 31.png');
+    width: 100%;
+    height: auto;
+    padding-top: 120px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.web_text h2 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #292929;
+}
+
+.web_text p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #292929;
+    margin-top: 50px;
+}
+
+
+
+.section_web form {
+    background: #fefefe;
+    padding: 46px 50px;
+    margin-bottom: 100px;
+}
+
+.section_web form p {
+    font-size: 18px;
+    color: #292929;
+}
+
+.section_web form button {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    padding: 27px 55px;
+    border-radius: 7px;
+    border: none;
+    background: #feb403;
+    margin-top: 23px;
+}
+
+.section_web form input {
+    width: 255px;
+    height: 55px;
+    margin-top: 18px;
+}
+
+.section_web form n {
+    margin-top: 18px;
+}
+
+/* <!-- ================= section_green start =========== --> */
+.section_green {
+    background: #286b0a;
+    width: 100%;
+    height: auto;
+}
+
+.green_box {
+    margin-top: 55px;
+    margin-bottom: 110px;
+}
+
+.green_box h3 {
+    font-size: 20px;
+    font-weight: 900;
+    color: #fcfcfc;
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+
+.green_box button {
+    font-size: 16px;
+    font-weight: 900;
+    color: #ffffff;
+    padding: 22px 50px;
+    text-transform: uppercase;
+    background: #fab102;
+    border: none;
+    border-radius: 9px;
+
+}
+
+/* <!-- ================= FOOTER  START =========== --> */
+.footer_top {
+    width: 100%;
+    background-image: url('../images/c.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.footer_top .footer_contact h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #292929;
+    margin-top: 85px;
+}
+
+.footer_top .footer_contact ul li {
+    font-size: 18px;
+    font-weight: 400;
+    color: #292929;
+
+}
+
+.footer_top .footer_contact ul li a {
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    text-decoration: underline;
+}
+
+.footer_top .footer_contact ul .li {
+    margin-top: 30px;
+}
+
+.footer_top .footer_contact ul li a span {
+    font-size: 18px;
+    font-weight: 900;
+    color: black;
+    text-decoration: none;
+}
+
+.footer_form form {
+    margin-top: 155px;
+    margin-bottom: 80px;
+    background: #fefefe;
+    height: 590px;
+}
+
+.footer_form form p {
+    font-size: 18px;
+    color: #292929;
+}
+
+.footer_form .header_button {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    padding: 27px 55px;
+    border-radius: 7px;
+    border: none;
+    background: #feb403;
+    margin-top: 23px;
+}
+
+.footer_form form input {
+    width: 255px;
+    height: 55px;
+    margin-top: 18px;
+}
+
+.footer_form form n {
+    margin-top: 18px;
+}
+
+.footer_bottom {
+    padding-top: 40px;
+    padding-bottom: 35px;
+}
+
+.footer_bottom h3 {
+    font-size: 20px;
+}
+
+.footer_bottom a {
+    font-size: 17px;
+    color: black;
+    text-decoration: underline;
+}
